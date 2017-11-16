@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6F2ECA71FBBE6C300898EEC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A6D5C41D1FBAF34900AFE7FB /* main.c */; };
+		A6F2ECB51FBBE73900898EEC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A6F2ECB41FBBE73900898EEC /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A6D5C4181FBAF34900AFE7FB /* CopyFiles */ = {
+		A6F2ECAF1FBBE73900898EEC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A6D5C41A1FBAF34900AFE7FB /* 链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "链表"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6D5C41D1FBAF34900AFE7FB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A6F2ECB11FBBE73900898EEC /* 学习Math库 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "学习Math库"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F2ECB41FBBE73900898EEC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6D5C4171FBAF34900AFE7FB /* Frameworks */ = {
+		A6F2ECAE1FBBE73900898EEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6D5C4111FBAF34900AFE7FB = {
+		A6F2ECA81FBBE73900898EEC = {
 			isa = PBXGroup;
 			children = (
-				A6D5C41C1FBAF34900AFE7FB /* 链表 */,
-				A6D5C41B1FBAF34900AFE7FB /* Products */,
+				A6F2ECB31FBBE73900898EEC /* 学习Math库 */,
+				A6F2ECB21FBBE73900898EEC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6D5C41B1FBAF34900AFE7FB /* Products */ = {
+		A6F2ECB21FBBE73900898EEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6D5C41A1FBAF34900AFE7FB /* 链表 */,
+				A6F2ECB11FBBE73900898EEC /* 学习Math库 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6D5C41C1FBAF34900AFE7FB /* 链表 */ = {
+		A6F2ECB31FBBE73900898EEC /* 学习Math库 */ = {
 			isa = PBXGroup;
 			children = (
-				A6D5C41D1FBAF34900AFE7FB /* main.c */,
+				A6F2ECB41FBBE73900898EEC /* main.c */,
 			);
-			path = "链表";
+			path = "学习Math库";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6D5C4191FBAF34900AFE7FB /* 链表 */ = {
+		A6F2ECB01FBBE73900898EEC /* 学习Math库 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6D5C4211FBAF34900AFE7FB /* Build configuration list for PBXNativeTarget "链表" */;
+			buildConfigurationList = A6F2ECB81FBBE73900898EEC /* Build configuration list for PBXNativeTarget "学习Math库" */;
 			buildPhases = (
-				A6D5C4161FBAF34900AFE7FB /* Sources */,
-				A6D5C4171FBAF34900AFE7FB /* Frameworks */,
-				A6D5C4181FBAF34900AFE7FB /* CopyFiles */,
+				A6F2ECAD1FBBE73900898EEC /* Sources */,
+				A6F2ECAE1FBBE73900898EEC /* Frameworks */,
+				A6F2ECAF1FBBE73900898EEC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "链表";
-			productName = "链表";
-			productReference = A6D5C41A1FBAF34900AFE7FB /* 链表 */;
+			name = "学习Math库";
+			productName = "学习Math库";
+			productReference = A6F2ECB11FBBE73900898EEC /* 学习Math库 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6D5C4121FBAF34900AFE7FB /* Project object */ = {
+		A6F2ECA91FBBE73900898EEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "hongsheng peng";
 				TargetAttributes = {
-					A6D5C4191FBAF34900AFE7FB = {
+					A6F2ECB01FBBE73900898EEC = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A6D5C4151FBAF34900AFE7FB /* Build configuration list for PBXProject "链表" */;
+			buildConfigurationList = A6F2ECAC1FBBE73900898EEC /* Build configuration list for PBXProject "学习Math库" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A6D5C4111FBAF34900AFE7FB;
-			productRefGroup = A6D5C41B1FBAF34900AFE7FB /* Products */;
+			mainGroup = A6F2ECA81FBBE73900898EEC;
+			productRefGroup = A6F2ECB21FBBE73900898EEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6D5C4191FBAF34900AFE7FB /* 链表 */,
+				A6F2ECB01FBBE73900898EEC /* 学习Math库 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6D5C4161FBAF34900AFE7FB /* Sources */ = {
+		A6F2ECAD1FBBE73900898EEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F2ECA71FBBE6C300898EEC /* main.c in Sources */,
+				A6F2ECB51FBBE73900898EEC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A6D5C41F1FBAF34900AFE7FB /* Debug */ = {
+		A6F2ECB61FBBE73900898EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		A6D5C4201FBAF34900AFE7FB /* Release */ = {
+		A6F2ECB71FBBE73900898EEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +229,7 @@
 			};
 			name = Release;
 		};
-		A6D5C4221FBAF34900AFE7FB /* Debug */ = {
+		A6F2ECB91FBBE73900898EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -237,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		A6D5C4231FBAF34900AFE7FB /* Release */ = {
+		A6F2ECBA1FBBE73900898EEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -248,25 +248,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6D5C4151FBAF34900AFE7FB /* Build configuration list for PBXProject "链表" */ = {
+		A6F2ECAC1FBBE73900898EEC /* Build configuration list for PBXProject "学习Math库" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D5C41F1FBAF34900AFE7FB /* Debug */,
-				A6D5C4201FBAF34900AFE7FB /* Release */,
+				A6F2ECB61FBBE73900898EEC /* Debug */,
+				A6F2ECB71FBBE73900898EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6D5C4211FBAF34900AFE7FB /* Build configuration list for PBXNativeTarget "链表" */ = {
+		A6F2ECB81FBBE73900898EEC /* Build configuration list for PBXNativeTarget "学习Math库" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D5C4221FBAF34900AFE7FB /* Debug */,
-				A6D5C4231FBAF34900AFE7FB /* Release */,
+				A6F2ECB91FBBE73900898EEC /* Debug */,
+				A6F2ECBA1FBBE73900898EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6D5C4121FBAF34900AFE7FB /* Project object */;
+	rootObject = A6F2ECA91FBBE73900898EEC /* Project object */;
 }
